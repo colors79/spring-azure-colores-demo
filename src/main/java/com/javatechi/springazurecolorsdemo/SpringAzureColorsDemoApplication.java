@@ -12,6 +12,7 @@ public class SpringAzureColorsDemoApplication {
 	@GetMapping("/message")
 	public String message(){
 		//test
+		//prueba 3 de commit
 		return "Congrats !!  you have deployed at Azure ..";
 	}
 
