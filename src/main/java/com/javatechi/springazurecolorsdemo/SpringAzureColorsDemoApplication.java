@@ -11,9 +11,12 @@ public class SpringAzureColorsDemoApplication {
 
 	@GetMapping("/message")
 	public String message(){
-		return "Congrats !!  you have deployed at Azure";
-
+		//test
+		return "Congrats !!  you have deployed at Azure ..";
 	}
+
+
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringAzureColorsDemoApplication.class, args);
